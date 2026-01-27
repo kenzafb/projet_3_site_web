@@ -81,7 +81,7 @@ Une fois cette base établie, nous avons pu nous appuyer dessus pour créer les 
 
 ## 🗂️ Organisation des fichiers
 ```
-/Devoir Auburn&Cream/
+/auburn-cream-coffee/
 │
 ├── README.md
 │
@@ -98,7 +98,7 @@ Une fois cette base établie, nous avons pu nous appuyer dessus pour créer les 
 │
 └── /images/
     ├── vitrine.jpg
-    ├── façade-exterieur.jpg
+    ├── facade-exterieur.jpg
     └── contoir.jpg
 ```
 
