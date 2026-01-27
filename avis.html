@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auburn &amp; Cream - Avis</title>
+    <link rel="stylesheet" href="CSS/avis.css">
+</head>
+    
+<body>
+    <header>
+        <h1 id="logo">
+            <a href="accueil.html">Auburn &amp; Cream</a>
+        </h1>
+
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="a-propos.html">A propos</a></li>
+                <li><a href="avis.html">Avis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section class="reviews">
+            <h2>Avis des Clients</h2>
+            <p>Voici ce que nos clients disent de leurs expériences chez Auburn & Cream :</p>
+
+            <article class="review">
+                <h3>Camille D.</h3>
+                <div class="stars" aria-label="5 sur 5">★★★★★</div>
+                <p>
+                    Le Avocado Toast était parfait : pain croustillant, avocat bien assaisonné et œuf poché cuit à la perfection. Je reviendrai !
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Lucas R.</h3>
+                <div class="stars" aria-label="4 sur 5">★★★★☆</div>
+                <p>
+                    Les Creamy Pancakes sont ultra moelleux et la compotée pomme-cannelle apporte une belle touche. Un peu trop sucré pour moi, mais délicieux.
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Sophie M.</h3>
+                <div class="stars" aria-label="5 sur 5">★★★★★</div>
+                <p>
+                    Le Chai Latte est parfaitement épicé et très onctueux — idéal avec un cookie maison. Vraiment réconfortant.
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Julien P.</h3>
+                <div class="stars" aria-label="5 sur 5">★★★★★</div>
+                <p>
+                    Granola croustillant, yaourt frais et fruits de saison : le Golden Granola Bowl est un incontournable pour bien démarrer la journée.
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Emma L.</h3>
+                <div class="stars" aria-label="4 sur 5">★★★★☆</div>
+                <p>
+                    Le Maple French Toast avait une texture moelleuse et les fruits rôtis étaient délicieux. Le sirop d'érable est généreux — j'ai adoré.
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Marc D.</h3>
+                <div class="stars" aria-label="5 sur 5">★★★★★</div>
+                <p>
+                    Le Cappuccino est crémeux et bien équilibré — parfait avec une part de Carrot Cake. Café très soigné ici.
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Nora B.</h3>
+                <div class="stars" aria-label="4 sur 5">★★★★☆</div>
+                <p>
+                    Le Carrot Cake est moelleux et la crème cheese est très réussie. Portion copieuse, j'ai eu du mal à tout finir (dans le bon sens) !
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Thomas V.</h3>
+                <div class="stars" aria-label="5 sur 5">★★★★★</div>
+                <p>
+                    L'Iced Matcha est rafraîchissant et peu amer — idéal pour une après-midi terrasse. Très bien dosé.
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Laura S.</h3>
+                <div class="stars" aria-label="5 sur 5">★★★★★</div>
+                <p>
+                    Le Cinnamon Roll est incroyablement parfumé et fondant. J'en reprendrais volontiers pour emporter.
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Antoine G.</h3>
+                <div class="stars" aria-label="4 sur 5">★★★★☆</div>
+                <p>
+                    La Lemonade Maison est très originale avec la fleur d'oranger, bien rafraîchissante. Parfaite pour une journée ensoleillée.
+                </p>
+            </article>
+        </section>
+
+        <section class="avis-form">
+            <h2>Laisser un avis</h2>
+            <form class="review-form">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+                
+                <label for="rating">Note :</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Sélectionnez une note</option>
+                    <option value="5">★★★★★</option>
+                    <option value="4">★★★★☆</option>
+                    <option value="3">★★★☆☆</option>
+                    <option value="2">★★☆☆☆</option>
+                    <option value="1">★☆☆☆☆</option>
+                </select>
+
+                <label for="comment">Commentaire :</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+                
+                <button type="submit">Envoyer l'avis</button>
+
+                <p class="merci">
+                    Merci pour votre contribution !
+                    <br>
+                    Veuillez prévoir un délai de traitement avant publication.
+                </p>
+            </form>
+        </section>
+    </main>
+    
+    
+    <footer>
+        <address>
+            <a href="https://www.google.fr/maps/search/12+Rue+des+Brunchs,+75007+Paris/@48.8861543,2.3272931,13z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">12 Rue des Brunchs, 75007 Paris</a><br>
+            <a href="tel:+33123456789">01 23 45 67 89</a><br>
+            <a href="mailto:hello@auburncream.fr">hello@auburncream.fr</a>
+        </address>
+        
+        <p>
+            Horaires d'ouverture :
+            <br>
+            Lundi - Vendredi : 9h30 - 17h
+            <br>
+            Week-end : 9h30 - 18h
+        </p>
+        
+        <p>
+            &copy; 2025 Auburn &amp; Cream — Tous droits réservés
+        </p>
+    
+    </footer>
+
+</body>
+</html>
