@@ -8,6 +8,9 @@ L'objectif du projet était de créer un site web statique de A à Z en HTML et 
 
 Le site présente le coffee shop, son menu, son histoire et permet aux clients de consulter ou laisser des avis.
 
+### Démo en ligne
+**[Voir le site](https://kenzafb.github.io/auburn-cream-coffee/)**
+
 ---
 
 ## 🎯 Objectifs du projet
