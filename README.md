@@ -88,6 +88,8 @@ Une fois cette base établie, nous avons pu nous appuyer dessus pour créer les 
 │
 ├── README.md
 │
+├── index.html          # Redirection
+|
 ├── accueil.html
 ├── a-propos.html
 ├── menu.html
