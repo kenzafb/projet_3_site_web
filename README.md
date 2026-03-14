@@ -1,107 +1,118 @@
-# ☕ Auburn & Cream – Coffee Shop Parisien
+# Auburn & Cream – Coffee Shop Parisien
 
-## 🌐 Description du projet
+> Site vitrine fictif pour un coffee shop parisien, réalisé en HTML et CSS afin de reproduire l'ambiance chaleureuse et conviviale d'un café de quartier.
 
-Auburn & Cream est un site vitrine fictif pour un coffee shop parisien.
+[![HTML5](https://img.shields.io/badge/HTML5-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Responsive](https://img.shields.io/badge/responsive-design-green.svg)](#)
 
-L'objectif du projet était de créer un site web statique de A à Z en HTML et CSS, reflétant l'ambiance du café : un lieu cosy, chaleureux et accueillant.
+---
 
-Le site présente le coffee shop, son menu, son histoire et permet aux clients de consulter ou laisser des avis.
+## Vue d'ensemble
+
+**Auburn & Cream** est un site web statique conçu comme la vitrine d’un coffee shop parisien fictif.
+L’objectif du projet était de concevoir un site multi-pages entièrement en **HTML5 et CSS3**, mettant en avant l’identité visuelle d’un café chaleureux et accueillant.
+
+Le site présente :
+
+* l’ambiance et l’histoire du café
+* le menu des boissons et pâtisseries
+* les membres de l’équipe
+* un espace permettant de consulter et soumettre des avis
+
+Ce projet met l’accent sur la **structure HTML sémantique**, la **mise en page moderne avec CSS** et la **création d’une identité visuelle cohérente**.
 
 ### Démo en ligne
-**[Voir le site](https://kenzafb.github.io/auburn-cream-coffee/)**
+
+**Voir le site :**
+https://kenzafb.github.io/auburn-cream-coffee/
 
 ---
 
-## 🎯 Objectifs du projet
+## Stack technique
 
-- Mettre en pratique l'ensemble des compétences acquises en HTML5 et CSS3
-- Concevoir un site multi-pages, responsive et harmonieux
-- Créer une charte graphique cohérente et une navigation fluide
-- Travailler en collaboration de groupe comme une mini agence web
+| Composant                  | Technologie                        |
+| -------------------------- | ---------------------------------- |
+| **Structure du site**      | HTML5 sémantique                   |
+| **Styles**                 | CSS3                               |
+| **Mise en page**           | Flexbox + CSS Grid                 |
+| **Responsive Design**      | Media Queries                      |
+| **Interactivité visuelle** | Effets `:hover` et transitions CSS |
 
----
-
-## 🧱 Structure du site
-
-Le site comprend **4 pages principales** :
-
-| Page | Description |
-|------|-------------|
-| 🏠 **Accueil** | Présente le café et son ambiance à travers du texte et des images |
-| 📖 **Menu** | Détaille les plats, desserts et boissons avec leurs prix |
-| 👩‍🍳 **À propos** | Raconte l'histoire du coffee shop et présente les trois employées : Naomie, Sanorie et Kenza |
-| ⭐ **Avis** | Regroupe les avis des clients et permet d'en soumettre un via un formulaire |
+⚠️ Aucun framework ni JavaScript n’a été utilisé afin de respecter les contraintes pédagogiques du projet.
 
 ---
 
-## 🎨 Charte graphique
+## Structure du site
 
-- **Ambiance :** Cosy et chaleureuse, avec une touche de modernité
-- **Couleurs :** Tons chauds (crème, marron, doré)
-- **Inspiration :** Douceur du café et atmosphère accueillante
-- **Polices :** Mélange d'une police manuscrite élégante pour les titres et d'une police moderne sans-serif pour le texte courant
-- **Éléments visuels :** Effets de survol, transitions douces, et mise en page aérée pour conserver une atmosphère agréable
+Le site comprend **quatre pages principales** :
 
----
-
-## ⚙️ Outils et techniques utilisées
-
-- **HTML5 sémantique :** Balises structurantes (`header`, `nav`, `main`, `section`, `article`, `footer`, `address`...)
-- **CSS3 moderne :** Utilisation de variables CSS pour les couleurs, polices et tailles
-- **Mise en page :** Flexbox et CSS Grid
-- **Responsive Design :** Media Queries pour mobile, tablette et desktop
-- **Interactivité :** Transitions et effets `:hover`
-- **Aucun framework ni JavaScript utilisé** (conformément aux consignes)
+| Page         | Description                                              |
+| ------------ | -------------------------------------------------------- |
+| **Accueil**  | Présentation du coffee shop et de son ambiance           |
+| **Menu**     | Liste des boissons, pâtisseries et plats avec leurs prix |
+| **À propos** | Histoire du café et présentation de l’équipe             |
+| **Avis**     | Consultation et soumission d’avis clients                |
 
 ---
 
-## 👥 Équipe du projet
+## Fonctionnalités
 
-Projet réalisé en groupe de **3 personnes** :
+### Présentation du coffee shop
 
-- **Naomie :** Brainstorming (ambiance, couleurs, concept du site), HTML des pages À propos, Avis et Menu + CSS de la page Menu
-- **Sanorie :** Brainstorming (ambiance, couleurs, concept du site), HTML de la page d'accueil, CSS des pages À propos et Avis
-- **Kenza :** HTML de la page d'accueil, CSS de la page d'accueil, nettoyage et uniformisation du code, rédaction du README.md
+* Page d’accueil immersive avec images et présentation du lieu
+* Navigation simple et claire entre les différentes sections du site
 
----
+### Menu interactif
 
-## 🧩 Difficultés rencontrées
+* Affichage structuré des boissons, desserts et plats
+* Mise en page claire facilitant la lecture
 
-Au départ, nous avons eu des difficultés pour structurer la page d'accueil : il fallait construire un squelette HTML clair et réutilisable (header, footer, variables CSS globales).
+### Présentation de l’équipe
 
-Une fois cette base établie, nous avons pu nous appuyer dessus pour créer les autres pages, ce qui a facilité la suite du développement.
+* Section dédiée à l’histoire du café
+* Présentation des membres de l’équipe
 
----
+### Avis clients
 
-## 💡 Points forts du projet
-
-- ✅ Un site complet, harmonieux et responsive
-- ✅ Une ambiance visuelle fidèle à l'image d'un coffee shop parisien
-- ✅ Une réelle progression collective : nous avons réussi à transformer nos premières difficultés en un projet dont nous sommes fiers
+* Liste d’avis fictifs
+* Formulaire de soumission d’avis
 
 ---
 
-## 🗂️ Organisation des fichiers
+## Charte graphique
+
+Le design du site a été pensé pour refléter l’atmosphère d’un **coffee shop parisien cosy et chaleureux**.
+
+**Principes visuels :**
+
+* Palette de couleurs chaudes : crème, marron, doré
+* Typographie combinant une police manuscrite élégante pour les titres et une police sans-serif moderne pour le texte
+* Mise en page aérée avec des images immersives
+* Animations légères via des transitions CSS
+
+---
+
+## Organisation des fichiers
+
 ```
-/auburn-cream-coffee/
+auburn-cream-coffee/
 │
 ├── README.md
+├── index.html
 │
-├── index.html          # Redirection
-|
 ├── accueil.html
 ├── a-propos.html
 ├── menu.html
 ├── avis.html
 │
-├── /CSS/
+├── CSS/
 │   ├── accueil.css
 │   ├── a-propos.css
 │   ├── menu.css
 │   └── avis.css
 │
-└── /images/
+└── images/
     ├── vitrine.jpg
     ├── facade-exterieur.jpg
     └── contoir.jpg
@@ -109,14 +120,30 @@ Une fois cette base établie, nous avons pu nous appuyer dessus pour créer les 
 
 ---
 
-## 🧾 Informations complémentaires
+## Objectifs pédagogiques
 
-- **Langage utilisé :** HTML5 / CSS3
-- **Projet évalué dans le cadre du module :** USAL33
-- **Date limite de rendu :** 07/11/2025
+Ce projet avait pour objectif de :
+
+* maîtriser **HTML5 sémantique**
+* créer une **architecture de site multi-pages**
+* concevoir une **charte graphique cohérente**
+* pratiquer **Flexbox et CSS Grid**
+* réaliser un **site responsive**
 
 ---
 
-## 📸 Aperçu
+## Travail d'équipe
 
-Un site vitrine chaleureux et accueillant qui reflète l'ambiance d'un coffee shop parisien authentique. ☕✨
+Projet réalisé en groupe de **trois personnes** :
+
+* **Naomie** — conception graphique, HTML des pages *À propos*, *Avis* et *Menu*, CSS de la page *Menu*
+* **Sanorie** — conception graphique, HTML de la page *Accueil*, CSS des pages *À propos* et *Avis*
+* **Kenza** — HTML et CSS de la page *Accueil*, harmonisation du code et rédaction de la documentation
+
+---
+
+## Contexte académique
+
+Projet réalisé dans le cadre du module **USAL33**.
+
+Site vitrine conçu pour refléter l’ambiance chaleureuse et accueillante d’un coffee shop parisien. ☕
